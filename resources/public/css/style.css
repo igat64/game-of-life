@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1b1b1b;
+  color: #384a51;
+  font-family: Righteous;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  background: #333;
+  width: 100%;
+  padding: 8px 0px 12px;
+  height: 40px;
+  text-align: center;
+  font-size: 35px;
+  font-family: Righteous;
+  color: #ddd;
+}
+
+.header__link {
+  color: #ddd;
+}
+
+.thing {
+  width: 0;
+  height: 0;
+}
+
+.board {
+  background: #000;
+  margin: 0px auto;
+  border: 9px solid #333;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.board_small {
+  width: 650px;
+  height: 390px;
+}
+
+.board_medium {
+  width: 840px;
+  height: 600px;
+}
+
+.board_large {
+  width: 900px;
+  height: 720px;
+}
+
+.board_large .cell {
+  width: 8px;
+  height: 8px;
+}
+
+.board_medium .cell {
+  width: 11px;
+  height: 11px;
+}
+
+.board_small .cell {
+  width: 12px;
+  height: 12px;
+}
+
+.cell {
+  border-top: 1px solid #333;
+  border-left: 1px solid #222;
+  margin: 0px;
+  float: left;
+}
+
+.cell_alive {
+  background: #fcd10096;
+}
+
+.cell_old {
+  background: #fcd000;
+}
+
+.cell_dead {
+  background: #000;
+}
+
+.btn {
+  border-radius: 4px;
+  background: #222;
+  color: #ddd;
+  font-family: Righteous;
+  cursor: pointer;
+}
+
+.btn_pressed {
+  background: #ddd;
+  color: #222;
+  cursor: auto;
+}
+
+.top-menu {
+  background: #333;
+  width: 580px;
+  height: 40px;
+  margin: 80px auto 0;
+  padding-top: 5px;
+  border-radius: 5px 5px 0 0;
+}
+
+.top-menu__btn {
+  width: 100px;
+  height: 30px;
+  margin: 4px 8px 0 8px;
+  float: left;
+  font-size: 18px;
+}
+
+.top-menu__counter {
+  margin: 7px 0 0 365px;
+  font-size: 20px;
+  color: #ddd;
+}
+
+.bottom-menu {
+  background: #333;
+  width: 650px;
+  height: 70px;
+  margin: 0px auto;
+  border-radius: 0 0 5px 5px;
+}
+
+.bottom-menu__paragraph {
+  float: left;
+  color: #ddd;
+  font-size: 20px;
+  margin: 3px 8px 5px 28px;
+  width: 115px;
+  clear: both;
+}
+
+.bottom-menu__btn {
+  width: 140px;
+  height: 27px;
+  margin: 0 5px;
+  float: left;
+  font-size: 16px;
+}
+
+.note {
+  background: #333;
+  margin: 20px auto;
+  padding: 20px;
+  width: 600px;
+  height: 40px;
+  font-size: 16px;
+  color: #ddd;
+  border-radius: 5px;
+  font-family: Helvetica;
+}
