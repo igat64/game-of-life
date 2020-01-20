@@ -1,9 +1,17 @@
 (ns game.cell)
 
-(defn alive? [cell] (not (nil? cell)))
-(defn age [cell] (get cell :age))
-(defn inc-age [cell] (update cell :age inc))
-(defn kill [_] nil)
+(defn alive? [cell]
+ (not (nil? cell)))
+
+(defn age [cell]
+ (get cell :age))
+
+(defn inc-age [cell]
+ (update cell :age inc))
+
+(defn kill [_]
+ nil)
+
 (defn spawn
   ([] (spawn 0))
   ([age] {:age age}))
