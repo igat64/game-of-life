@@ -1,5 +1,5 @@
 (ns game.board
-  #_(:require
+  (:require
     [game.timing :refer-macros [c-time]]))
 
 (defn- create-slot
